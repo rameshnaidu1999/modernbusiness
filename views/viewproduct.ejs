@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+      <div class="col-3">
+          <div class="mt-3">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="<%= product.image %>" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-text"><%= product.title %></h5>
+                <p class="card-text"><%= product.description %></p>
+                <p class="font-bold"><%= product.price %></p>
+              </div>
+              <div class="card-body">
+                <a href="products/<%= product._id %>" class="btn btn-success">Buy Now</a>
+                <a href="#" class="btn btn-outline-success">Add to Cart</a>
+              </div>
+            </div> 
+          </div> 
+      </div>
+    </div>    
+  </div>
